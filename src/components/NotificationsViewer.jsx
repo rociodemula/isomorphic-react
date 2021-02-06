@@ -1,5 +1,6 @@
 import React from 'react';
 import NotificationsService from '../services/NotificationsService';
+import "babel-polyfill";
 
 export default class extends React.Component {
     constructor(...args) {

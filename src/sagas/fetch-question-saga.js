@@ -1,5 +1,6 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import fetch from 'isomorphic-fetch';
+import "babel-polyfill";
 
 export default function * () {
     /**

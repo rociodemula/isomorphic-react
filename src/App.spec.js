@@ -1,4 +1,5 @@
 import delay from 'redux-saga';
+import "babel-polyfill";
 it("async test 1",done=>{
     setTimeout(done,100);
 });
